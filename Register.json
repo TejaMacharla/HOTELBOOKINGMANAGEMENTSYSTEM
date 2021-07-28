@@ -1,0 +1,16 @@
+{
+  "Users": [
+    {
+      "id": 2792,
+      "name": "Rupesh Macherla",
+      "phone": "+449441078923",
+      "email": "rupesh.talend@gmail.com",
+      "password": "123456",
+      "cpassword": "123456",
+      "role": "",
+      "nameError": "",
+      "emailError": "",
+      "cpwdError": ""
+    }
+  ]
+}
