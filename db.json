@@ -127,6 +127,14 @@
       "email": "tejamacharla1997@gmail.com",
       "phone": "09985030991",
       "cost": "8399"
+    },
+    {
+      "id": 5357,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "",
+      "email": "",
+      "phone": "",
+      "cost": "2419"
     }
   ]
 }

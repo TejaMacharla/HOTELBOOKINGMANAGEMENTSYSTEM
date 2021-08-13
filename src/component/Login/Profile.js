@@ -19,8 +19,9 @@ class Profile extends Component{
         if(this.state.user.role){
             if(this.state.user.role==="Admin"){
                 return(<>
-                    <Link className="btn btn-success" to="/userinfo">All Users</Link>
-                    <Link className="btn btn-success" to="/viewBooking">BookingList</Link>
+                    <Link className="btn btn-success" to="/userinfo" style={{marginRight:"5px"}}>All Users</Link>
+                    <Link className="btn btn-success" to="/viewBooking" style={{marginRight:"5px"}}>BookingList</Link>
+                    <Link className="btn btn-success" to="/contactview" style={{marginRight:"5px"}}>Response List</Link>
                     </>
                 )
             }
@@ -43,7 +44,7 @@ class Profile extends Component{
                     <h3>Your Mail Id is {this.state.user.email}</h3>
                     <h4> Your Role is {this.state.user.role}</h4>
                     {this.conditionalRender()}
-                    <btn className="btn btn-danger" onClick={this.handleLogout}>LogOut</btn>
+                    <btn className="btn btn-danger" onClick={this.handleLogout}>LogOut <span className="glyphicon glyphicon-log-out"></span></btn>
                     
                 </div>
             </div>

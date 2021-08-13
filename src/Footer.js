@@ -3,7 +3,7 @@ const Footer=()=>{
     return(
         <div>
             <hr/>
-            <center><h2>&copy;Hotel Booking Management System </h2></center>
+            <center><h3 >&copy;Hotel Booking Management System </h3></center>
             
             
         </div>

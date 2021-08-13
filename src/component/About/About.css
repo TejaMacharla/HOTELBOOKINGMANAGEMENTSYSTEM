@@ -1,0 +1,40 @@
+.about{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.about1{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.about2{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.ab{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about3{
+    font-size: 18px;
+}
+.about4{
+    font-size: 18px;
+}
+#pn{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.panel-body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.panel-title{
+    font-size: 20px;
+    font-weight: bolder;
+}

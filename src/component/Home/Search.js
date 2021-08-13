@@ -49,7 +49,7 @@ class Search extends Component{
         console.log(this.props)
         return(
             <div className="imageContainer">
-                <div id="logo">M!</div>
+                <div id="logo">H!</div>
                 <div className="heading">Trip With Us</div>
                 <div className="locationSelector">
                     <select className="locationDropDown" onChange={this.handleCity}>

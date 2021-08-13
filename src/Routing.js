@@ -12,6 +12,10 @@ import Login from './component/Login/Login'
 import Profile from './component/Login/Profile'
 import UserBookingDetails from './component/Booking/UserBookingDetails'
 import UserApi from './component/Login/UserApi'
+import About from './component/About/About'
+import Contactus from './component/Contact/Contact'
+import SubmitResponse from './component/Contact/SubmitResponse'
+import ContactApi from './component/Contact/ContactApi'
  
 const Routing=()=>{
     return(
@@ -27,6 +31,10 @@ const Routing=()=>{
         <Route path="/profile" component={Profile}/>
         <Route path="/userBookingDetails" component={UserBookingDetails}/>
         <Route path="/userinfo" component={UserApi}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contactus" component={Contactus}/>
+        <Route path="/submit" component={SubmitResponse}/>
+        <Route path="/contactview" component={ContactApi}/>
         <Footer/>
         </BrowserRouter>
     )

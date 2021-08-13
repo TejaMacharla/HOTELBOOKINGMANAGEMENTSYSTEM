@@ -23,20 +23,25 @@ class Header extends Component{
 }
 render(){
   return(
-    <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <div>
+
+    
+    <nav className="navbar navbar-inverse">
+    <div className="container-fluid">
       <div class="navbar-header">
         {/* <img class="navbar-brand" src="https://tse2.mm.bing.net/th?id=OIP.dinwxvjJN55OtoM827c2BwHaIg&pid=Api&P=0&w=300&h=300" style={{height:70,width:70}}/> */}
       </div>
       <ul class="nav navbar-nav">
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/"><span className="glyphicon glyphicon-home"></span> Home</Link></li>
+        <li><Link to="/about"><span className="glyphicon glyphicon-book"></span> About Us</Link></li>
+        <li><Link to="/contactus"><span className="glyphicon glyphicon-phone-alt"></span> Contact Us</Link></li>
        
       </ul>
       <ul class="nav navbar-nav navbar-right">
       {this.conditionalHeader()} 
         {/* <li><a href="#">Link</a></li> */}
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span className="glyphicon glyphicon-list-alt"></span> Menu <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><Link to="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</Link></li>
             <li><Link to="/login"><span class="glyphicon glyphicon-log-in"></span> Login</Link></li>
@@ -55,6 +60,7 @@ render(){
       </ul> */}
     </div>
   </nav>
+  </div>
 )
 
 }

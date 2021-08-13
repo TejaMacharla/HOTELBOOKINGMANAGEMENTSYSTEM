@@ -58,13 +58,15 @@ class Login extends Component{
                             onChange={this.handleChange}
                             />
                         </div>
-                       
-                        
-                        <button className="btn btn-success"
+                       <div className="form-group ml-5" >
+                       <button className="btn btn-success"b
                         onClick={this.handleSubmit}>
-                            Login
+                            Login <span class="glyphicon glyphicon-log-in"></span>
                         </button>
-                        <p>If you don't have any account Please <a class="btn btn-primary" href="/register" role="button">Sign Up</a></p>
+                        
+                       </div>
+                        
+                        <p className="mr-5">If you don't have any account Please <a class="btn btn-primary" href="/register" role="button">Sign Up</a></p>
                     </div>
                 </div>
             </div>

@@ -120,10 +120,18 @@ export default class Register extends React.Component{
                             />
                             <div style={{color:"red"}}>{this.state.cpwdError}</div>
                         </div>
+                        <div className="form-group">
+                            <label>Role</label>
+                            <input name="role" value={this.state.role} type='text' className="form-control"
+                            onChange={this.handleChange}
+                            />
+                            <div style={{color:"red"}}>{this.state.cpwdError}</div>
+                        </div>
                         <button className="btn btn-success" type="submit"
                         >
                             Register
                         </button>
+                        <p className="mr-5">If you  have already an account Please <a class="btn btn-primary" href="/login" role="button">Login</a></p>
                         </form>
                     </div>
                 </div>
